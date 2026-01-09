@@ -2,7 +2,7 @@
     margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
-    font-family: "Inter", sans-serif;
+    font-family:"Inter", sans-serif;
 }
 .font-inter{
     font-family: "Inter", sans-serif;
@@ -95,7 +95,6 @@ cursor:pointer;
     margin-bottom:32px;
 }
 .button-parent{
-    /* display:flex; */
     gap:16px;
     align-items:center;
 }
@@ -103,10 +102,7 @@ cursor:pointer;
     display:inline-block;
     margin-bottom:-5px;
     gap:10px;
-    /* width:20px;
-    height:20px; */
 }
-
 .btn-1{
     background-color: #469165;
     color:#FFFFFF;
@@ -202,8 +198,6 @@ cursor:pointer;
     max-width:1600px;
     padding:120px 120px;
     align-items: center;
-    /* margin-bottom:120px; */
-    /* margin-top: 120px; */
 }
 .brain-parent .know-image{
     border-radius:12px;
@@ -211,7 +205,6 @@ cursor:pointer;
     height:600px;
     border:none;
     box-shadow:0 4px 4px 0 rgba(0, 0, 0, 0.2);
-    /* margin-top: 120px; */
 }
 .brain-content{
     margin-top:102px;
@@ -302,7 +295,6 @@ cursor:pointer;
 }
 .first-footer{
    display:flex;
-   /* justify-content: space-between; */
    margin-bottom:84px;
 }
 .links{
@@ -320,9 +312,8 @@ cursor:pointer;
     margin-right:16px;
 }
 .footer-hr{
-    /* border:1px solid var(--DS New/Colors/Stroke/Gray-Light, rgba(229, 231, 235, 1)); */
-    opacity:0.1;
     border:1px solid #E5E7EB;
+    opacity:0.1;
 }
 .copyright{
     text-align: center;
