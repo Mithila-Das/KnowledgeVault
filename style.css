@@ -176,9 +176,32 @@ cursor:pointer;
 /* second-brain section */
 .brain-parent{
     display:flex;
-    gap:60px;
-    margin: 0 auto;
+    /* flex-direction: column; */
+    max-width:1360px;
+    /* text-align: center; */
+    align-items: center;
+    /* gap:60px; */
+    /* margin: 0 auto; */
 }
-.brain-content{
-    display:flex;
+.brain-content .solution-text{
+    font-size:16px;
+    font-weight: 500;
+    line-height:20px;
+    color:#469165;
+    margin-bottom: 16px;
+}
+.brain-content h1{
+    font-size:48px;
+    margin-bottom:16px;
+}
+.brain-content .personal-text{
+    font-size:16px;
+    line-height: 20px;
+    color:#627382;
+    margin-bottom:40px;
+}
+.brain-content .all-text{
+    font-size:16px;
+    line-height: 20px;
+    margin-bottom:16px;
 }
