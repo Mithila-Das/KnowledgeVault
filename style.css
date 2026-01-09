@@ -8,6 +8,7 @@
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
 }
+
 /* header section */
 nav{
     max-width:1600px;
@@ -44,6 +45,7 @@ font-size: 16px;
 font-weight: 600;
 cursor:pointer;
 }
+
 /* banner section */
 .banner-parent{
     background-image: url("./assets/hero-bg.png");
@@ -56,7 +58,7 @@ cursor:pointer;
     display:flex;
     background-color: #FFFFFF;
     height:35px;
-    width:210px;
+    width:230px;
     padding:12px 8px;
     gap:2px;
     border-radius:1000px;
@@ -171,13 +173,20 @@ cursor:pointer;
     font-family: "Inter", sans-serif;
     color:#627382;
 }
-.icons-note{
-    width:32px;
-    height:32px;
+.note-img{
+    width:60px;
+    height:60px;
     background-color: #F95555;
     border-radius:50px;
     border: 1px solid #000000;
+    display:flex;
+    align-items: center;
 }
+.icons-note{
+    width:32px;
+    height:32px;
+}
+
 /* second-brain section */
 .brain-parent{
     display:flex;
