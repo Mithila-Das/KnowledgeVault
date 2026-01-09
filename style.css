@@ -124,6 +124,7 @@ cursor:pointer;
 .btn-2{
   font-size:16px;
   font-weight:600px;
+  background-color: transparent;
   color:#FFFFFF;
   border-radius:4px;
   border:1px solid rgba(255, 255, 255, 1);
@@ -291,15 +292,13 @@ cursor:pointer;
 
 /* footer section */
 .footer-parent{
-    max-width:1600px;
     background-color: #001931;
-    padding: 120px 120px 30px 120px;
-    margin:0 auto;
+    padding:40px;
+    margin:0;
 }
 .first-footer{
    display:flex;
-   width:1360px;
-   justify-content: space-between;
+   /* justify-content: space-between; */
    margin-bottom:84px;
 }
 .links{
@@ -307,7 +306,6 @@ cursor:pointer;
     font-weight: 500;
     line-height: 28px;
     color:#FFFFFF;
-
 }
 .icons{
     margin-top:16px;
